@@ -3,12 +3,24 @@ import statisticalData from '../statistics/statistical-data.json'
 console.log(statisticalData)
 
 
-export default function Statiatics(){
-        let newData  = Object.fromEntries(statisticalData.map(item => [item.label, 0]));
-        statisticalData.forEach(item => {newData[item.label] += item.percentage})
-      
-        console.log(newData)
-        console.log(typeof newData);
-        return newData.map(el => el);
+// export default function Statiatics(){    
+//         return statisticalData.map((item) => (
+//             <li className="item" key={ item.id }>
+//               <span className="label">{ item.label }</span>
+//               <span className="percentage">{ `${ item.percentage }%` }</span>
+//             </li>
+//           ));
+// }
+
+export default function Statiatics(){    
+  return (<ul> 
+    {statisticalData.map((item) => (
+      <li className="item" key={ item.id }>
+        <span className="label">{ item.label }</span>
+        <span className="percentage">{ `${ item.percentage.toLocaleString()}%` }</span>
+      </li>
+     
+    ))}
+    </ul>);
 }
 
