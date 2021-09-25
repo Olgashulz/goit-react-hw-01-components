@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import styles from './Profile.module.css';
-import defaultImage from '../../social-profile/defoultImage.png';
+import defaultImage from './defoultImage.png';
 
-export default function Profile (props) {
-    const { userImg = defaultImage, userName, userTag, userlocation, userStats } = props;
+export default function Profile ( { userImg = defaultImage, userName, userTag, userlocation, userStats }) {
+    // const { userImg = defaultImage, userName, userTag, userlocation, userStats } = props;
     //console.log(props)
     return(
     <div className={ styles.profile }>

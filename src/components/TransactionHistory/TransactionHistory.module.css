@@ -38,9 +38,6 @@ table tr:nth-child(2n) {
     background-color: #ECF1F4;
 }
 
-
-
-
 .type {
     text-transform: capitalize;
 }

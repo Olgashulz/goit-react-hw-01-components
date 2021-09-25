@@ -2,8 +2,7 @@ import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
 
 // console.log(statisticalData)
-export default function Statiatics(props){  
-  const { stats }= props;  
+export default function Statiatics({ stats }){  
   return (<ul className={ styles.list }> 
     {stats.map((item) => (
         <li className={ styles.item } style={ { backgroundColor: getColor() } } key={ item.id }>

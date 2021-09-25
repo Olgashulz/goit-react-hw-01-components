@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 import styles from './TransactionHistory.module.css';
 
-export default function TransactionHistory(props){
-    const { transactions }= props;  
+export default function TransactionHistory({ transactions }){
     return (
         <table className={ styles.transactions }>
   <thead>
