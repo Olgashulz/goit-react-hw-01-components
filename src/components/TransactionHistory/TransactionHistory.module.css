@@ -34,17 +34,11 @@ td:not(:last-child) {
     border-right: 1px solid #EAEAEA; 
 }
 
-tr:hover{
-    background-color: #daeefa;
-}
-
 table tr:nth-child(2n) {
     background-color: #ECF1F4;
 }
 
-table tr:nth-child(2n):hover {
-    background-color: #daeefa;
-}
+
 
 
 .type {
