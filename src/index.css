@@ -5,11 +5,6 @@
   outline-offset: 0;
 }
 
-/* body {
-  background-color: #1D1B26;
-  color:  #ffffff;
-  line-height: 1.5;
-} */
 ul {
   list-style: none;
   margin: 0;
@@ -28,21 +23,13 @@ p {
 
 img {
   display: block;
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
-  background-color: #e7ecf2;
-  /* background-color: #6d7175; */
+  background-color: #ecf1f4;
 }
 
 code {
@@ -50,7 +37,7 @@ code {
     monospace;
 }
 
-.container{
+.container {
   max-width: 1024px;
   margin: auto;
 }

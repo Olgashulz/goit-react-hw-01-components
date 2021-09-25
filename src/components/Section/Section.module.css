@@ -5,13 +5,12 @@
     -webkit-box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
 }
 
 .title {
 padding-top: 20px;
 padding-bottom: 20px;
-display: block;
-width: fit-content;
 margin: auto;
 text-align: center;
 color: #122236;;
